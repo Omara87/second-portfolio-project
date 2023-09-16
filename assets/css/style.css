@@ -7,21 +7,36 @@
 
 /* General styles */
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     color: #362b24;
     font-family: Pacifico, sans-serif;
 }
 
 h1 {
     color: aqua;
-    font-family: Pacifico, sans-serif;
+    font-family: CrimsonTree, sans-serif;
     font-size: 28px;
     text-transform: uppercase;
     text-align: center;
 }
 
 /* Header */
-
+header {
+    padding: 1rem;
+    background-color: #3a3a3a;
+}
 
 /* Main Content */
+main {
+    flex: 1 0 auto;
+    margin: 1rem;
+    padding: 1rem;
+}
 
 /* Footer */
+footer {
+    padding: 1rem;
+    background-color: #ed143d;
+}
