@@ -1,8 +1,27 @@
+/*Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     color: #362b24;
     font-family: Pacifico, sans-serif;
 }
+
+h1 {
+    color: aqua;
+    font-family: Pacifico, sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Header */
+
+
+/* Main Content */
+
+/* Footer */
