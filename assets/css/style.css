@@ -14,6 +14,12 @@ body {
     font-family: Pacifico, sans-serif;
 }
 
+.banner {
+    background: url("../images/Mauraders-Map.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 h1 {
     color: aqua;
     font-family: CrimsonTree, sans-serif;
@@ -25,7 +31,6 @@ h1 {
 /* Header */
 header {
     padding: 1rem;
-    background-color: #3a3a3a;
 }
 
 /* Main Content */
@@ -38,5 +43,5 @@ main {
 /* Footer */
 footer {
     padding: 1rem;
-    background-color: #ed143d;
+    text-align: center;
 }
