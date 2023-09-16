@@ -1,0 +1,8 @@
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #362b24;
+    font-family: Pacifico, sans-serif;
+}
