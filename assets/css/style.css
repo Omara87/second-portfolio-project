@@ -32,7 +32,7 @@ h1 {
 
 h2 {
     color: #222f5b;
-    font-size: 18px;
+    font-size: 42px;
     text-align: center;
     text-shadow: 2px 2px 2px #946b2d;
     letter-spacing: 0.25rem;
@@ -77,6 +77,16 @@ main {
 }
 
 .btn {
+    border: 5px solid #f0c75e;
+    background-color: #2a623d;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    font-size: 32px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.audiobtn {
     border: 5px solid #f0c75e;
     background-color: #2a623d;
     color: black;
