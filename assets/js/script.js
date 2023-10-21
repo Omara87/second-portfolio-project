@@ -1,14 +1,6 @@
 // questions that will be asked
 
-const question = document.querySelector('#question');
-const Array = document.querySelectorAll('.choice');
-const maxQuestions = 10;
-
-let currentQuestion = {};
-let acceptingAnswers = true;
-let availableQuestions = []
-
-let questions = [{
+let questionsArray = [{
     question: "Where did Hagrid get the dragon egg?",
     choice1: 'Diagon Alley',
     choice2: 'Knockturn Alley',
@@ -209,3 +201,13 @@ let questions = [{
     answer: 4,
 },
 ]
+
+// Functions to begin quiz
+
+const question = document.getElementById('#question');
+const Array = document.getElementsByClassName('.choice');
+const maxQuestions = 10;
+
+let currentQuestion = 0;
+let acceptingAnswers = true;
+let availableQuestions = [];
