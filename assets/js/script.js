@@ -2,6 +2,11 @@
 
 const question = document.querySelector('#question');
 const Array = document.querySelectorAll('.choice');
+const maxQuestions = 10;
+
+let currentQuestion = {};
+let acceptingAnswers = true;
+let availableQuestions = []
 
 let questions = [{
     question: "Where did Hagrid get the dragon egg?",
@@ -203,4 +208,4 @@ let questions = [{
     choice4: 'Teddy',
     answer: 4,
 },
-];
+]
