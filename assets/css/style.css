@@ -58,16 +58,7 @@ main {
     padding: 0 1rem 1rem 1rem;
 }
 
-/* Audio button */
-.audio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 1rem 1rem 1rem;
-    margin: 0 1rem 1rem 1rem;
-}
-
-/* Play and Rules buttons */
+/* Play button */
 .game {
     display: flex;
     justify-content: center;
@@ -86,26 +77,28 @@ main {
     border-radius: 15px;
 }
 
-.audiobtn {
-    border: 5px solid #f0c75e;
-    background-color: #2a623d;
-    color: black;
-    padding: 0.5rem 1.5rem;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 15px;
-}
-
 /* Footer */
 footer {
     padding: 1rem;
-    text-align: center;
 }
 
 .social-networks {
-    display: flex;
+    letter-spacing: 10px;
     justify-content: center;
     list-style: none;
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.social-networks>li>a {
+    color: #222f5b;
+    font-size: 2rem;
+    opacity: 0.8;
 }
 
 /* Media Query for tablets and above (768px and above) */
