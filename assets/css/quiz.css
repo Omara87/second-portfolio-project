@@ -67,36 +67,22 @@ main {
     margin: 1rem;
 }
 
-.btn {
-    border: 5px solid #5d5d5d;
-    background-color: #1a472a;
-    color: #d3a625;
-    padding: 0.5rem 1.5rem;
-    font-size: 180%;
-    cursor: pointer;
-    border-radius: 15px;
-    font-family: cursive;
-    width: 15rem;
-    height: 5rem;
-    text-align: center;
-}
-
 /* Question and Answer boxes. */
 #question {
-    border: 5px solid #bebebe;
+    border: 5px solid #d3a625;
     background-color: #0e1a40;
     color: #bebebe;
     cursor: pointer;
     border-radius: 15px;
     font-family: cursive;
     text-align: center;
-    width: 200%;
+    width: 85%;
     font-size: 180%;
 }
 
 .answer {
-    margin: 1rem;
-    padding: 1rem;
+    margin: 2rem;
+    padding: 2rem;
 }
 
 .answer-buttons {
@@ -118,17 +104,25 @@ main {
     color: #d3a625;
 }
 
-#next-btn {
-    background: #740001;
-    color: #d3a625;
-    font-weight: 500;
-    width: 150px;
+/* Next button */
+
+.btn {
     border: 5px solid #d3a625;
-    padding: 2rem;
-    margin: 2rem;
-    border-radius: 15px;
+    background-color: #0e1a40;
+    color: #d3a625;
+    padding: 1rem;
+    margin: 5rem;
+    font-size: 180%;
     cursor: pointer;
+    border-radius: 15px;
+    font-family: cursive;
     text-align: center;
+    display: none;
+}
+
+.btn:hover {
+    background-color: #740001;
+    color: #d3a625;
 }
 
 /* Footer */
