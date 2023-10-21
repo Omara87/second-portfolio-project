@@ -23,7 +23,7 @@ html {
 h1 {
     color: #740001;
     font-family: Pacifico, sans-serif;
-    font-size: 180%;
+    font-size: 200%;
     text-align: center;
     text-shadow: 2px 2px 2px #d3a625;
     letter-spacing: 0.25rem;
@@ -32,7 +32,7 @@ h1 {
 
 h2 {
     color: #222f5b;
-    font-size: 42px;
+    font-size: 140%;
     text-align: center;
     text-shadow: 2px 2px 2px #946b2d;
     letter-spacing: 0.25rem;
@@ -70,11 +70,15 @@ main {
 .btn {
     border: 5px solid #f0c75e;
     background-color: #2a623d;
-    color: black;
+    color: #f0c75e;
     padding: 0.5rem 1.5rem;
-    font-size: 24px;
+    font-size: 180%;
     cursor: pointer;
     border-radius: 15px;
+    font-family: cursive;
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
 }
 
 /* Footer */
