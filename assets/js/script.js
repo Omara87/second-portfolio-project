@@ -2,10 +2,10 @@
 
 let questions = [{
     question: "Where did Hagrid get the dragon egg?",
-    choice1: 'Diagon Alley',
-    choice2: 'Knockturn Alley',
-    choice3: 'Hogs Head',
-    choice4: 'Leaky Cauldron',
+    choice: 'Diagon Alley',
+    choice: 'Knockturn Alley',
+    choice: 'Hogs Head',
+    choice: 'Leaky Cauldron',
     answer: 3,
 },
 {
@@ -200,19 +200,25 @@ let questions = [{
     choice4: 'Teddy',
     answer: 4,
 },
-]
+];
 
 const questionElement = document.getElementById("question");
-const answerButton = document.getElementsByClassName("choice");
+const answerButton = document.getElementsByClassName("answer-buttons");
 const nextButton = document.getElementsByClassName("next-btn");
 
 let currentQuestionIndex = 0;
 let score = 0;
 
 // Functions to begin quiz
-function startQuiz(){
+function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
+}
+
+function showQuestion() {
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 }

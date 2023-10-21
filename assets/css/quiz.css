@@ -34,7 +34,6 @@ h2 {
     color: #222f5b;
     font-size: 140%;
     text-align: center;
-    text-shadow: 2px 2px 2px #946b2d;
     letter-spacing: 0.25rem;
 }
 
@@ -78,6 +77,7 @@ main {
     text-align: center;
     width: 85%;
     font-size: 180%;
+    padding: 1rem;
 }
 
 .answer {
@@ -160,7 +160,6 @@ footer {
 
     h2 {
         font-size: 36px;
-        text-shadow: 4px 4px 4px #946b2d;
         letter-spacing: 0.5rem;
     }
 }
