@@ -68,9 +68,9 @@ main {
 }
 
 .btn {
-    border: 5px solid #f0c75e;
-    background-color: #2a623d;
-    color: #f0c75e;
+    border: 5px solid #5d5d5d;
+    background-color: #1a472a;
+    color: #d3a625;
     padding: 0.5rem 1.5rem;
     font-size: 180%;
     cursor: pointer;
@@ -79,6 +79,37 @@ main {
     width: 15rem;
     height: 5rem;
     text-align: center;
+}
+
+/* Question and Answer boxes. */
+#question {
+    border: 5px solid #bebebe;
+    background-color: #0e1a40;
+    color: #bebebe;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: cursive;
+    text-align: center;
+    width: 200%;
+    font-size: 180%;
+}
+
+.container {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.answer-container {
+    border: 5px solid #bebebe;
+    background-color: #0e1a40;
+    color: #bebebe;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: cursive;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 140%;
 }
 
 /* Footer */

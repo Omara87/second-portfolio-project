@@ -68,9 +68,9 @@ main {
 }
 
 .btn {
-    border: 5px solid #f0c75e;
-    background-color: #2a623d;
-    color: #f0c75e;
+    border: 5px solid #5d5d5d;
+    background-color: #1a472a;
+    color: #d3a625;
     padding: 0.5rem 1.5rem;
     font-size: 180%;
     cursor: pointer;
