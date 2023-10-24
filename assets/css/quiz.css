@@ -6,12 +6,11 @@ main {
 }
 
 /* Home button */
-.home {
+.container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 2rem;
+    margin: 2rem;
 }
 
 /* Question and Answer boxes. */
@@ -19,41 +18,55 @@ main {
     border: 5px solid #d3a625;
     background-color: #0e1a40;
     color: #bebebe;
-    cursor: pointer;
     border-radius: 15px;
-    font-family: cursive;
-    text-align: center;
-    width: 85%;
     font-size: 180%;
-    padding: 1rem;
-}
-
-#quiz {
-    margin: 2rem;
     padding: 2rem;
+    margin: 2rem;
+    min-width: 20rem;
+    text-align: center;
 }
 
-.answer {
+.choice-container {
+    margin: 2rem;
+    padding: 1rem;
     border: 5px solid #d3a625;
     background-color: #0e1a40;
     color: #bebebe;
     cursor: pointer;
     border-radius: 15px;
-    font-family: cursive;
     text-align: center;
-    margin: 2rem;
-    padding: 2rem;
     font-size: 140%;
     transition: all 0.3s;
+    display: flex;
+    justify-content: center;
 }
 
-.answer:hover {
+.choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0;
     transition: transform 150ms;
-    transform: scale(1.03);
-    background-color: #740001;
-    color: #d3a625;
+    transform: scale(1.25);
+    background-color: #ecb939;
+    color: #372e29;
+    border: 5px solid #372e29;
+}
+
+.choice {
+    padding: 2rem;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+/* Correct and Incorrect stylings */
+.correct {
+    background: linear-gradient(32deg, #1a472a #2a623d) 100%;
+}
+
+.incorrect {
+    background: linear-gradient(32deg, #740001 #ae0001) 100%;
 }
 
 /* Next button */
@@ -75,4 +88,11 @@ main {
 .next-btn:hover {
     background-color: #740001;
     color: #d3a625;
+}
+
+/* Media Query for tablets and above (768px and above) */
+@media screen and (min-width: 768px) {
+    #question {
+        min-width: 40rem;
+    }
 }
