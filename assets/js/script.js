@@ -1,6 +1,6 @@
 // questions that will be asked
 
-let questions = [{
+var questions = [{
     question: "Where did Hagrid get the dragon egg?",
     answers: {
         choice: 'Diagon Alley',
@@ -251,26 +251,3 @@ let questions = [{
     correctAnswer: 4,
 },
 ];
-
-const questionElement = document.getElementById("question");
-const answerButton = document.getElementsByClassName("answer-buttons");
-const nextButton = document.getElementsByClassName("next-btn");
-
-let currentQuestionIndex = 0;
-let score = 0;
-
-// Functions to begin quiz
-function startQuiz() {
-    currentQuestionIndex = 0;
-    score = 0;
-    nextButton.innerHTML = "Next";
-    showQuestion();
-}
-
-function showQuestion() {
-    let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
-}
-
-startQuiz();
