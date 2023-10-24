@@ -79,15 +79,27 @@ main {
     width: 15rem;
     height: 5rem;
     text-align: center;
+    text-decoration: none;
 }
 
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0;
     transition: transform 150ms;
-    transform: scale(1.03);
+    transform: scale(1.5);
     background-color: #740001;
     color: #d3a625;
+}
+
+.btn[disabled] :hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.fa-crown {
+    font-size: 1.5rem;
+    margin-left: 1rem;
 }
 
 /* Footer */

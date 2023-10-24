@@ -1,55 +1,3 @@
-/*Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: #362b24;
-    font-family: Pacifico, sans-serif;
-}
-
-html {
-    background: url("../images/Mauraders-map.jpg") no-repeat center center fixed;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-h1 {
-    color: #740001;
-    font-family: Pacifico, sans-serif;
-    font-size: 200%;
-    text-align: center;
-    text-shadow: 2px 2px 2px #d3a625;
-    letter-spacing: 0.25rem;
-    margin: 0 1rem 1rem 1rem;
-}
-
-h2 {
-    color: #222f5b;
-    font-size: 140%;
-    text-align: center;
-    letter-spacing: 0.25rem;
-}
-
-.hidden-heading {
-    display: none;
-}
-
-/* Header */
-header {
-    padding: 1rem;
-}
-
-header a {
-    text-decoration: none;
-}
-
 /* Main Content */
 main {
     flex: 1 0 auto;
@@ -124,46 +72,7 @@ main {
     display: none;
 }
 
-.btn:hover {
+.next-btn:hover {
     background-color: #740001;
     color: #d3a625;
-}
-
-/* Footer */
-footer {
-    padding: 1rem;
-}
-
-.social-networks {
-    letter-spacing: 10px;
-    justify-content: center;
-    list-style: none;
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-    margin: 0.5rem;
-    padding: 0.5rem;
-}
-
-.social-networks>li>a {
-    color: #222f5b;
-    font-size: 2rem;
-    opacity: 0.8;
-}
-
-/* Media Query for tablets and above (768px and above) */
-@media screen and (min-width: 768px) {
-
-    h1 {
-        font-size: 400%;
-        text-shadow: 5px 5px 5px #d3a625;
-        letter-spacing: 0.5rem;
-    }
-
-    h2 {
-        font-size: 36px;
-        letter-spacing: 0.5rem;
-    }
 }
