@@ -100,6 +100,10 @@ main {
 }
 
 .answer:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0;
+    transition: transform 150ms;
+    transform: scale(1.03);
     background-color: #740001;
     color: #d3a625;
 }
