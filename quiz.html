@@ -26,7 +26,7 @@
 
     <!-- Google fonts -->
     <link rel="stylesheet" href="assets/css/quiz.css" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -52,6 +52,29 @@
     <!-- Main Content -->
     <main>
       <section>
+        <h1 class="hidden-heading">Quiz Game</h1>
+        <div class="container">
+            <div id="game" class="justify-center flex-column">
+                <div id="display">
+                    <div class="display-item">
+                        <p id="progressText" class="display-prefix">
+                            Question
+                        </p>
+                        <div id="progressBar">
+                            <div id="progressBarFull"></div>
+                        </div>
+                    </div>
+                    <div class="display-item">
+                        <p class="display prefix">
+                            Score
+                        </p>
+                        <h2 class="main-text" id="score">
+                            0
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="home">
           <h2 id="question">Insert question</h2>
         </div>
@@ -70,7 +93,7 @@
           </div>
         </div>
         <div class="next-btn">
-            <p>Next</p>
+          <p>Next</p>
         </div>
       </section>
     </main>

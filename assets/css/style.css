@@ -91,15 +91,17 @@ main {
     color: #d3a625;
 }
 
+/* High Score btn */
+.fa-crown {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+/* High Score page styles */
 .btn[disabled] :hover {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
-}
-
-.fa-crown {
-    font-size: 1.5rem;
-    margin-left: 1rem;
 }
 
 /* Footer */
