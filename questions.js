@@ -1,54 +1,17 @@
 // questions that will be asked
 
 var questions = [{
-    question: "Where did Hagrid get the dragon egg?",
-    answers: {
-        choice: 'Diagon Alley',
-        choice: 'Knockturn Alley',
-        choice: 'Hogs Head',
-        choice: 'Leaky Cauldron',
-    },
-    correctAnswer: 3,
-},
-{
-    question: "How many knuts are there to a sickle?",
-    answers: {
-        choice: '16',
-        choice: '29',
-        choice: '21',
-        choice: '13',
-    },
-    correctAnswer: 2,
-},
-{
-    question: "What is rumoured to guard some of the high security Gringotts vaults?",
-    answers: {
-        choice: 'Dragons',
-        choice: 'Trolls',
-        choice: 'Dementors',
-        choice: 'Giants',
-    },
-    correctAnswer: 1,
-},
-{
-    question: "Who is the ghost of Hufflepuff?",
-    answers: {
-        choice: 'Bloody Baron',
-        choice: 'Grey Lady',
-        choice: 'Fat Friar',
-        choice: 'Nearly Headless Nick',
-    },
-    correctAnswer: 3,
+    
 },
 {
     question: "What animal do spiders most fear?",
     answers: {
-        choice: 'Hippogriff',
-        choice: 'Thestral',
-        choice: 'Chimera',
-        choice: 'Basilisk',
+        choice1: 'Hippogriff',
+        choice2: 'Thestral',
+        choice3: 'Chimera',
+        choice4: 'Basilisk',
     },
-    correctAnswer: 4,
+    answer: 4,
 },
 {
     question: "What spell lights up the tip of your wand?",
