@@ -9,8 +9,6 @@ main {
 .container {
     display: flex;
     justify-content: center;
-    padding: 2rem;
-    margin: 2rem;
 }
 
 /* Question and Answer boxes. */
@@ -20,7 +18,7 @@ main {
     color: #bebebe;
     border-radius: 15px;
     font-size: 180%;
-    padding: 2rem;
+    padding: 1rem;
     margin: 2rem;
     min-width: 20rem;
     text-align: center;
@@ -28,7 +26,6 @@ main {
 
 .choice-container {
     margin: 2rem;
-    padding: 1rem;
     border: 5px solid #d3a625;
     background-color: #0e1a40;
     color: #bebebe;
@@ -52,11 +49,11 @@ main {
 }
 
 .choice {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .choice-text {
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
 }
 
@@ -73,17 +70,35 @@ main {
 #display {
     display: flex;
     justify-content: space-between;
+    color: #740001;
+    margin: 0rem 2rem;
 }
 
 .display-item {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .main-text {
     text-align: center;
     text-shadow: none;
-    font-size: 3rem;
+    font-size: 2rem;
+    color: #740001;
+}
+
+#progressBar {
+    width: 10rem;
+    height: 2rem;
+    border: 5px solid #740001;
+    margin-top: 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: #740001;
+    width: 0%;
 }
 
 /* Next button */
@@ -111,5 +126,24 @@ main {
 @media screen and (min-width: 768px) {
     #question {
         min-width: 40rem;
+    }
+
+    .display-item {
+        font-size: 2rem;
+    }
+
+    .main-text {
+        font-size: 3rem;
+    }
+
+    #progressBar {
+        width: 15rem;
+        height: 3rem;
+        border: 8px solid #740001;
+        border-radius: 25px;
+    }
+
+    .choice-container {
+        min-width: 55rem;
     }
 }
