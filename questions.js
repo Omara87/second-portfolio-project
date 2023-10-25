@@ -1,67 +1,12 @@
 // questions that will be asked
 
-var questions = [{
-    
-},
 {
-    question: "What animal do spiders most fear?",
-    answers: {
-        choice1: 'Hippogriff',
-        choice2: 'Thestral',
-        choice3: 'Chimera',
-        choice4: 'Basilisk',
-    },
-    answer: 4,
-},
-{
-    question: "What spell lights up the tip of your wand?",
-    answers: {
-        choice: 'Alohamora',
-        choice: 'Lumos',
-        choice: 'Reducto',
-        choice: 'Expelliarmus',
-    },
-    correctAnswer: 2,
-},
-{
-    question: "What animal represents Ravenclaw house?",
-    answers: {
-        choice: 'Lion',
-        choice: 'Snake',
-        choice: 'Eagle',
-        choice: 'Badger',
-    },
-    correctAnswer: 3,
-},
-{
-    question: "What colour is the Weasley's flying car?",
-    answers: {
-        choice: 'Blue',
-        choice: 'Green',
-        choice: 'Black',
-        choice: 'Grey',
-    },
-    correctAnswer: 1,
-},
-{
-    question: "Who owns the ice-cream shop in Diagon Alley?",
-    answers: {
-        choice: 'Ollivanders',
-        choice: 'Flourish and Blott',
-        choice: 'Madam Malkins',
-        choice: 'Florean Fortescue',
-    },
-    correctAnswer: 4,
-},
-{
-    question: "Where do the Weasleys go on holiday in the Prisoner of Azkaban?",
-    answers: {
-        choice: 'France',
-        choice: 'Greece',
-        choice: 'Egypt',
-        choice: 'Romania',
-    },
-    correctAnswer: 3,
+    question: 'Where do the Weasleys go on holiday in the Prisoner of Azkaban?',
+        choice1: 'France',
+        choice2: 'Greece',
+        choice3: 'Egypt',
+        choice4: 'Romania',
+    answer: 3,
 },
 {
     question: "What is the name of Hermione's cat?",
