@@ -51,6 +51,17 @@ header a {
     text-decoration: none;
 }
 
+/* Banner image styling */
+.crest {
+    width: 50%;
+    height: 50%;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+}
+
 /* Main Content */
 main {
     flex: 1 0 auto;
@@ -141,5 +152,9 @@ footer {
         font-size: 36px;
         text-shadow: 4px 4px 4px #946b2d;
         letter-spacing: 0.5rem;
+    }
+
+    .btn {
+        min-width: 30rem;
     }
 }
