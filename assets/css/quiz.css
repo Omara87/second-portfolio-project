@@ -69,6 +69,23 @@ main {
     background: linear-gradient(32deg, #740001 #ae0001) 100%;
 }
 
+/* Question and Score */
+#display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-item {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-text {
+    text-align: center;
+    text-shadow: none;
+    font-size: 3rem;
+}
+
 /* Next button */
 
 .next-btn {
