@@ -1,9 +1,10 @@
+// Save high scores
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
 const finalScore = document.querySelector('#finalScore');
 const mostRecentScore = document.querySelector('#mostRecentScore');
 
-const highScores = JSON.parse(localStorage.getItem('highscores')) || [];
+const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 const MAX_HIGH_SCORES = 5;
 
@@ -30,5 +31,12 @@ saveHighScore = e => {
     highScores.splice(5);
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('/');
+    window.location.assign('/highscores.html');
 };
+
+// Displaying high scores on leaderboard
+const highScoresList = document.querySelector('#highScoreList')
+
+highScoresList.innerHTML = highScores.map(score => {
+    return `<li class="high-score">${score.name} - ${score.score}</li>`
+}).join('')
