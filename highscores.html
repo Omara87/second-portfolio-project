@@ -53,7 +53,7 @@
       <section>
         <h2>It does not do to dwell on dreams and forget to live.</h2>
         <div id="highscore">
-          <h2 id="score">0</h2>
+          <h2 id="finalScore">0</h2>
           <h2>Enter your name below to save your score.</h2>
           <form class="form-container">
             <div class="game">
@@ -68,17 +68,18 @@
             <div class="game">
               <button
                 class="btn"
-                id="scoreBtn"
+                id="saveScoreBtn"
                 type="submit"
-                onClick="saveHighScore(event)" disabled 
+                onClick="saveHighScore(event)"
+                disabled
               >
                 Save
               </button>
             </div>
           </form>
-        </div>
-        <div class="game">
-          <a href="quiz.html" class="btn">Play Again</a>
+          <div class="game">
+            <a href="quiz.html" class="btn">Play Again</a>
+          </div>
         </div>
       </section>
     </main>
@@ -117,6 +118,6 @@
 
     <!-- Javascript -->
     <script src="assets/js/script.js"></script>
-    <script src="assets/js/highscores.js"></script> 
+    <script src="assets/js/highscores.js"></script>
   </body>
 </html>
