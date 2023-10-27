@@ -138,6 +138,15 @@ input::placeholder {
     font-family: cursive;
 }
 
+#highScoreList {
+    list-style: none;
+    color: #222f5b;
+    font-size: 140%;
+    text-align: center;
+    text-shadow: 2px 2px 2px #946b2d;
+    letter-spacing: 0.25rem;
+}
+
 /* Footer */
 footer {
     padding: 1rem;
