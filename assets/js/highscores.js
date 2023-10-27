@@ -35,8 +35,8 @@ saveHighScore = e => {
 };
 
 // Displaying high scores on leaderboard
-const highScoresList = document.querySelector('#highScoreList')
+const highScoresList = document.querySelector('#highScoreList');
 
 highScoresList.innerHTML = highScores.map(score => {
-    return `<li class="high-score">${score.name} - ${score.score}</li>`
-}).join('')
+    return `<li class="high-score">${score.name} - ${score.score}</li>`;
+}).join('');
