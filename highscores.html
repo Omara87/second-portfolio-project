@@ -38,8 +38,16 @@
     <main>
         <section>
             <h2>It does not do to dwell on dreams and forget to live.</h2>
+            <div id="highscore">
+                <h2 id="score">0</h2>
+                <form class="form-container">
+                    <h2>Enter your name below to sace your score.</h2>
+                    <input type="text" name="yourname" id="username" placeholder="Enter your name">
+                    <button class="btn" id="scoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
+                </form>
+            </div>
             <div class="game">
-                <a href="quiz.html" class="btn">Play</a>
+                <a href="quiz.html" class="btn">Play Again</a>
             </div>
         </section>
     </main>

@@ -225,12 +225,12 @@ startGame = () => {
     getNewQuestion();
 };
 
-// Code for functions assisted by https://www.youtube.com/watch?v=f4fB9Xg2JEY
+// Code for function assisted by https://www.youtube.com/watch?v=f4fB9Xg2JEY
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
-        return window.location.assign('/end.html');
+        return window.location.assign('/highscores.html');
     }
 
     questionCounter++;
@@ -258,6 +258,8 @@ choices.forEach(choice => {
         acceptingAnswers = false
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset['number']
+
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
         if(classToApply === 'correct') {
             incrementScore(SCORE_POINTS)
