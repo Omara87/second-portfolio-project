@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- meta tags for search engines -->
-    <meta name="description" content="Harry Potter quiz questions for fans of the Harry Potter saga and books." />
-    <meta name="keywords"
-        content="Harry Potter, quiz, fans, trivia, Hogwarts, Gryffindor, Slytherin, Hufflepuff, Ravenclaw" />
+    <meta
+      name="description"
+      content="Harry Potter quiz questions for fans of the Harry Potter saga and books."
+    />
+    <meta
+      name="keywords"
+      content="Harry Potter, quiz, fans, trivia, Hogwarts, Gryffindor, Slytherin, Hufflepuff, Ravenclaw"
+    />
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/images/Favicon/favicon-16x16.png" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="assets/images/Favicon/favicon-16x16.png"
+      type="image/x-icon"
+    />
     <link rel="icon" sizes="32x32" href="../assets/favicon/favicon-32x32.png" />
     <link rel="icon" sizes="16x16" href="../assets/favicon/favicon-16x16.png" />
 
@@ -20,61 +28,95 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pacifico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text"
+    />
 
     <title>Harry Potter Quiz</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="banner">Harry Potter Quiz</h1>
-        </a>
+      <a href="index.html">
+        <h1 id="banner">Harry Potter Quiz</h1>
+      </a>
     </header>
 
     <!-- Main Content -->
     <main>
-        <section>
-            <h2>It does not do to dwell on dreams and forget to live.</h2>
-            <div id="highscore">
-                <h2 id="score">0</h2>
-                <form class="form-container">
-                    <h2>Enter your name below to sace your score.</h2>
-                    <input type="text" name="yourname" id="username" placeholder="Enter your name">
-                    <button class="btn" id="scoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
-                </form>
+      <section>
+        <h2>It does not do to dwell on dreams and forget to live.</h2>
+        <div id="highscore">
+          <h2 id="score">0</h2>
+          <h2>Enter your name below to save your score.</h2>
+          <form class="form-container">
+            <div class="game">
+              <input
+                class="btn"
+                type="text"
+                name="yourname"
+                id="username"
+                placeholder="Enter your name"
+              />
             </div>
             <div class="game">
-                <a href="quiz.html" class="btn">Play Again</a>
+              <button
+                class="btn"
+                id="scoreBtn"
+                type="submit"
+                onclick="saveHighScore(event)"
+                disabled
+              >
+                Save
+              </button>
             </div>
-        </section>
+          </form>
+        </div>
+        <div class="game">
+          <a href="quiz.html" class="btn">Play Again</a>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <div>
-            <ul class="social-networks">
-                <li>
-                    <a href="https://github.com/Omara87" target="_blank" rel="noopener"
-                        aria-label="Visit my Github for my portfolio (opens in new tab)"><i
-                            class="fa-brands fa-github"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/william-skinner-812b4658/" target="_blank" rel="noopener"
-                        aria-label="Visit my LinkedIn professional profile (opens in new tab)"><i
-                            class="fa-brands fa-linkedin"></i></a>
-                </li>
-            </ul>
-        </div>
+      <div>
+        <ul class="social-networks">
+          <li>
+            <a
+              href="https://github.com/Omara87"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit my Github for my portfolio (opens in new tab)"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/william-skinner-812b4658/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit my LinkedIn professional profile (opens in new tab)"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </footer>
 
     <!-- Font awesome script -->
-    <script src="https://kit.fontawesome.com/559a011062.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/559a011062.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Javascript -->
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
