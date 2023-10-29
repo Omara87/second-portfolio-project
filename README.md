@@ -14,13 +14,13 @@ The live project can be viewed [here](https://omara87.github.io/second-portfolio
 
   - #### Final Pages 
 
-  -  [Home](https://github.com/yipmunallen/Second-Milestone-Project/blob/master/assets/images/homepage.png)
+  -  [Home](https://github.com/Omara87/second-portfolio-project/blob/main/assets/images/Home.png) - Main page where users can either choose to play quiz or view high scores.
 
-  - [Quiz](https://github.com/yipmunallen/Second-Milestone-Project/blob/master/assets/images/quizpage.png) -
-Main quiz page, where users can select answers and get visual feedback on their choices
+  - [Quiz](https://github.com/Omara87/second-portfolio-project/blob/main/assets/images/Quiz.png) -
+Main quiz page, where users can select answers and get visual feedback from scoring system.
 
-  - [Score](https://github.com/yipmunallen/Second-Milestone-Project/blob/master/assets/images/scorepage.png) -
-Displays user's score at the end of each game
+  - [Score](https://github.com/Omara87/second-portfolio-project/blob/main/assets/images/Score.png) -
+Displays users high scores with options to play again. 
 
 ### Colour scheme
 
@@ -57,8 +57,7 @@ https://codepen.io/Jill-Lambert/pen/bwevpB
 
 In order for the website to pass testing, the following have been tested both whilst in development and on the live website:
 
-1. Functionality in line with user stories
-1. Additional functionality required for website building
+1. Functionality required for website building
 1. Compatibility with multiple devices and browsers
 
 In addition: 
@@ -79,6 +78,8 @@ In addition:
 ### Bugs
 
 - __End Quiz__ - The end quiz page initially would not send you to the high scores page and needed to have the correct relative pathway attached to it. 
+- __Score__ - Initially the user was unable to save the score but the problem was resolved through changing the relative pathway. 
+- __Quiz__ - It was aimed that during the quiz, the questions would either change colour to green if it was correct or red if it was incorrect, but that has not been fixed.
 
 ### Validator Testing
 
