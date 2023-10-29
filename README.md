@@ -4,13 +4,13 @@ This is an interactive (front-end) quiz site, built using HTML, CSS and Javascri
 
 The live project can be viewed [here](https://omara87.github.io/second-portfolio-project/)
 
-![alt text](/workspaces/second-portfolio-project/assets/images/all-devices-black.png)
+![alt text](https://github.com/Omara87/second-portfolio-project/blob/main/assets/images/all-devices-black.png)
 
 ## Design
 
 - ### Wireframes
 
-  - [Home Mobile](https://github.com/Omara87/first-portfolio-project/blob/main/assets/images/Home%20(Mobile).jpg)
+  - [Home Mobile](https://github.com/Omara87/second-portfolio-project/blob/main/assets/images/Wireframes.pdf)
 
   - #### Final Pages 
 
