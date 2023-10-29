@@ -4,16 +4,23 @@ This is an interactive (front-end) quiz site, built using HTML, CSS and Javascri
 
 The live project can be viewed [here](https://omara87.github.io/second-portfolio-project/)
 
-![alt text](https://github.com/Omara87/first-portfolio-project/blob/main/assets/images/website-mockup.png)
+![alt text](/workspaces/second-portfolio-project/assets/images/all-devices-black.png)
 
 ## Design
 
 - ### Wireframes
 
   - [Home Mobile](https://github.com/Omara87/first-portfolio-project/blob/main/assets/images/Home%20(Mobile).jpg)
-  - [Gallery Mobile](https://github.com/Omara87/first-portfolio-project/blob/main/assets/images/Mobile%20wireframes.jpg)
-  - [Home Desktop](https://github.com/Omara87/first-portfolio-project/blob/main/assets/images/Home%20(desktop).jpg)
-  - [Gallery Desktop](https://github.com/Omara87/first-portfolio-project/blob/main/assets/images/Desktop%20wireframes.jpg)
+
+  - #### Final Pages 
+
+  -  [Home](https://github.com/yipmunallen/Second-Milestone-Project/blob/master/assets/images/homepage.png)
+
+  - [Quiz](https://github.com/yipmunallen/Second-Milestone-Project/blob/master/assets/images/quizpage.png) -
+Main quiz page, where users can select answers and get visual feedback on their choices
+
+  - [Score](https://github.com/yipmunallen/Second-Milestone-Project/blob/master/assets/images/scorepage.png) -
+Displays user's score at the end of each game
 
 ### Colour scheme
 
